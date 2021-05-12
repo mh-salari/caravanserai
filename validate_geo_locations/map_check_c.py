@@ -1,0 +1,186 @@
+map_check_config = {
+    "version": "v1",
+    "config": {
+        "visState": {
+            "filters": [],
+            "layers": [
+                {
+                    "id": "4n3ewwk",
+                    "type": "point",
+                    "config": {
+                        "dataId": "old_geo_locaton",
+                        "label": "Point",
+                        "color": [201, 0, 0],
+                        "columns": {
+                            "lat": "Latitude",
+                            "lng": "Longitude",
+                            "altitude": None,
+                        },
+                        "isVisible": True,
+                        "visConfig": {
+                            "radius": 15,
+                            "fixedRadius": False,
+                            "opacity": 0.8,
+                            "outline": False,
+                            "thickness": 2,
+                            "strokeColor": None,
+                            "colorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300",
+                                ],
+                            },
+                            "strokeColorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300",
+                                ],
+                            },
+                            "radiusRange": [0, 50],
+                            "filled": True,
+                        },
+                        "hidden": False,
+                        "textLabel": [
+                            {
+                                "field": None,
+                                "color": [255, 255, 255],
+                                "size": 18,
+                                "offset": [0, 0],
+                                "anchor": "start",
+                                "alignment": "center",
+                            }
+                        ],
+                    },
+                    "visualChannels": {
+                        "colorField": None,
+                        "colorScale": "quantile",
+                        "strokeColorField": None,
+                        "strokeColorScale": "quantile",
+                        "sizeField": None,
+                        "sizeScale": "linear",
+                    },
+                },
+                {
+                    "id": "6bwp09g",
+                    "type": "point",
+                    "config": {
+                        "dataId": "new_geo_locaton",
+                        "label": "Point",
+                        "color": [28, 15, 88],
+                        "columns": {
+                            "lat": "Latitude",
+                            "lng": "Longitude",
+                            "altitude": None,
+                        },
+                        "isVisible": True,
+                        "visConfig": {
+                            "radius": 25,
+                            "fixedRadius": False,
+                            "opacity": 0.8,
+                            "outline": False,
+                            "thickness": 2,
+                            "strokeColor": None,
+                            "colorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300",
+                                ],
+                            },
+                            "strokeColorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300",
+                                ],
+                            },
+                            "radiusRange": [0, 50],
+                            "filled": True,
+                        },
+                        "hidden": False,
+                        "textLabel": [
+                            {
+                                "field": None,
+                                "color": [255, 255, 255],
+                                "size": 18,
+                                "offset": [0, 0],
+                                "anchor": "start",
+                                "alignment": "center",
+                            }
+                        ],
+                    },
+                    "visualChannels": {
+                        "colorField": None,
+                        "colorScale": "quantile",
+                        "strokeColorField": None,
+                        "strokeColorScale": "quantile",
+                        "sizeField": None,
+                        "sizeScale": "linear",
+                    },
+                },
+            ],
+            "interactionConfig": {
+                "tooltip": {
+                    "fieldsToShow": {
+                        "old_geo_locaton": [
+                            {"name": "Name", "format": None},
+                            {"name": "Latitude", "format": None},
+                            {"name": "Longitude", "format": None},
+                        ],
+                        "new_geo_locaton": [
+                            {"name": "Name", "format": None},
+                            {"name": "Latitude", "format": None},
+                            {"name": "Longitude", "format": None},
+                        ],
+                    },
+                    "compareMode": False,
+                    "compareType": "absolute",
+                    "enabled": True,
+                },
+                "brush": {"size": 0.5, "enabled": False},
+                "geocoder": {"enabled": False},
+                "coordinate": {"enabled": False},
+            },
+            "layerBlending": "normal",
+            "splitMaps": [],
+            "animationConfig": {"currentTime": None, "speed": 1},
+        },
+        "mapStyle": {
+            "styleType": "satellite",
+            "topLayerGroups": {},
+            "visibleLayerGroups": {},
+            "threeDBuildingColor": [
+                3.7245996603793508,
+                6.518049405663864,
+                13.036098811327728,
+            ],
+            "mapStyles": {},
+        },
+    },
+}
