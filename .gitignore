@@ -1,3 +1,6 @@
+Satellite-Aerial-Image-Retrieval/output/
+slidingwindow/output/
+slidingwindow/weights/
 *.pdf
 .vscode/
 *.png
