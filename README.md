@@ -4,7 +4,7 @@ This study presents a deep learning-based image processing method for the automa
 
 ## Requirements
 
-- Deep learning framework (e.g. PyTorch, TensorFlow)
+- Deep learning framework (e.g. PyTorch)
 - Object detection algorithm (e.g. YOLOv5)
 
 ## Usage
